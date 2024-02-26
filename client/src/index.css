@@ -1,0 +1,108 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-blue-500 {
+  background-color: #f4d06f;
+}
+
+.bg-orange-400 {
+  background-color: #f4d06f;
+}
+
+.bg-orange-500 {
+  background-color: #ff8811;
+}
+
+h1 {
+  font-family: gilroy, Helvetica, Arial, sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+}
+
+.custom-div-shadow {
+  box-shadow: 0px 1px 4px 1px #0000004f;
+}
+.custom-button-color {
+  background: #ffab56;
+  background-image: -webkit-linear-gradient(top, #ffab56, #ff8811);
+  background-image: -moz-linear-gradient(top, #ffab56, #ff8811);
+  background-image: -ms-linear-gradient(top, #ffab56, #ff8811);
+  background-image: -o-linear-gradient(top, #ffab56, #ff8811);
+  background-image: linear-gradient(to bottom, #ffab56, #ff8811);
+}
+.custom-button-color:hover {
+  background: #fa942d;
+  background-image: -webkit-linear-gradient(top, #fa942d, #d66b00);
+  background-image: -moz-linear-gradient(top, #fa942d, #d66b00);
+  background-image: -ms-linear-gradient(top, #fa942d, #d66b00);
+  background-image: -o-linear-gradient(top, #fa942d, #d66b00);
+  background-image: linear-gradient(to bottom, #fa942d, #d66b00);
+}
+.custom-button-border {
+  border-color: #ffb870;
+}
+.custom-button-shadow {
+  box-shadow: 0px 0px 0px 1px #ff8e1d;
+}
+.disabled-button {
+  background: #b6b6b6;
+  background-image: -webkit-linear-gradient(top, #b6b6b6, #999999);
+  background-image: -moz-linear-gradient(top, #b6b6b6, #999999);
+  background-image: -ms-linear-gradient(top, #b6b6b6, #999999);
+  background-image: -o-linear-gradient(top, #b6b6b6, #999999);
+  background-image: linear-gradient(to bottom, #b6b6b6, #999999);
+}
+.disabled-button:hover {
+  background: #b6b6b6;
+  background-image: -webkit-linear-gradient(top, #b6b6b6, #999999);
+  background-image: -moz-linear-gradient(top, #b6b6b6, #999999);
+  background-image: -ms-linear-gradient(top, #b6b6b6, #999999);
+  background-image: -o-linear-gradient(top, #b6b6b6, #999999);
+  background-image: linear-gradient(to bottom, #b6b6b6, #999999);
+}
+
+.recipe-paper {
+  font-family: 'Ammys Handwriting', sans-serif;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  overflow: hidden;
+  box-shadow: 0px 2px 3px 1px #979595b8;
+  min-height: 250px;
+  font-weight: bold;
+}
+
+.recipe-paper-header {
+  padding: 10px;
+  text-align: center;
+  font-size: 1.2em;
+}
+
+.recipe-paper-ingredients {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+  color: #1e73f3;
+  font-size: 0.9em;
+}
+
+.recipe-paper-footer {
+  padding: 10px;
+  text-align: right;
+  font-size: 1.1em;
+}
+.square-image-wrapper {
+  position: relative;
+  width: 100%;
+  padding-top: 100%;
+}
+
+.square-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 0.25rem;
+}
